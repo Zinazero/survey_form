@@ -1,0 +1,23 @@
+body {
+    background-color: navy;
+    color: white;
+  }
+  form {
+    background-color: navy;
+    color: white;
+    font-family: Impact;
+  }
+  fieldset {
+    margin: 0 auto;
+  }
+  h1, p {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .inline {
+    display: block;
+    max-width: 500px;
+    min-width: 300px;
+    width: 60%;
+    padding: 1px 2px;
+  }

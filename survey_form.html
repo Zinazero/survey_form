@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Form Project</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">This Is A Form</h1>
+    <p id="description">This is a form for submitting information.</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Name <input id="name" type="text" required placeholder="Enter your name" class="inline" /></label>
+        <label id="email-label">Email <input id="email" type="email" required placeholder="Enter your email" class="inline" /></label>
+        <label id="number-label">Age (optional) <input id="number" type="number" min="13" max="120" placeholder="Age" class="inline" /></label>
+      </fieldset>
+      <fieldset>
+        <label id="dropdown-label">Which of these options?
+        <select id="dropdown" class="inline">
+          <option>(select option)</option>
+          <option>Option 1</option>
+          <option>Option 2</option>
+        </select>
+        </label>
+        <label id="radio-label">Would you recommend this form?
+          <label><input name="radio" value="Yes" type="radio" checked  /> Yes</label>
+          <label><input name="radio" value="No" type="radio" /> No</label>
+          <label><input name="radio" value="Maybe" type="radio" /> Maybe</label>
+        <label id="checkbox-label" class="inline">Check All That Apply:
+          <label><input value="0" type="checkbox" /> 0</label>
+          <label><input value="1" type="checkbox" /> 1</label>
+          <label><input value="2" type="checkbox" /> 2</label>
+          <label><input value="3" type="checkbox" /> 3</label>
+          <label><input value="4" type="checkbox" /> 4</label>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label id="textarea-label">Any Comments?
+          <textarea rows="10" cols="50" placeholder="Enter your comments here..." class="inline"></textarea>
+        </label>
+        <input id="submit" type="submit" value="Submit" class="inline" />
+      </fieldset>
+    </form>
+  </body>
+</html>
